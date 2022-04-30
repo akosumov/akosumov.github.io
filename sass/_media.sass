@@ -1,0 +1,225 @@
+@media (max-width: 1200px)
+	.menu					
+		&_item
+			padding-right: 20px !important
+		&_link
+			font-size: 13px !important
+	.promo
+		&_header
+			font-size: 50px	!important
+	.reason
+		&_blok
+			align-items: flex-start 
+		&_descr
+			width: 300px 
+	.footer
+		&_links
+			width: 375px
+			margin: 0 -16px
+		&_mobile
+			width: 302px
+			img
+				width: 80%
+				margin-left: 40px
+	.mobile
+		&_item
+			width: 298px
+@media (max-width: 991px)
+	.menu					
+		&_item
+			padding-right: 8px !important
+		&_link
+			font-size: 10px !important
+	.subheader
+		&_logo
+			img
+				width: 100% !important
+		&_official
+			font-size: 11px !important 
+		&_phone
+			font-size: 18px !important
+		&_btn
+			width: 100% !important
+			height: 40px !important
+			margin-top: 21px !important
+	.promo
+		&_header
+			font-size: 40px	!important
+		&_subheader
+			font-size: 30px !important
+	.reason
+		&_blok
+			flex-direction: column
+			align-items: center
+		&_around
+			margin-right: 0
+		&_descr
+			margin-top: 20px
+			width: 310px
+	.mobile
+		&_item
+			width: 231px
+	.footer
+		&_wrapper
+			flex-direction: column
+		&_wrapper > div 
+			width: 100%
+			display: flex 
+			justify-content: center
+			margin-bottom: 20px
+			&:nth-child(1)
+				width: 100%
+			&:nth-child(3)
+				width: 100%
+				justify-content: center
+@media (max-width: 767px)
+	.menu
+		position: fixed !important
+		flex-direction: column !important
+		justify-content: center !important
+		align-items: center !important
+		top: 0 !important
+		left: -100% !important
+		width: 50% !important
+		height: 100vh !important
+		padding: 20px 15px !important
+		background-color: rgba(0,0 ,0 ,.8 ) !important
+		transition: 0.6s all !important
+		z-index: 1 !important
+		&_active
+			left: 0 !important
+		&_item
+			padding-right: 0 !important
+			border: none !important
+			margin: 10px 0 !important
+		&_link
+			font-size: 20px !important
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: white	
+			margin-bottom: 3px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)	
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none !important
+	.xs-visible
+		display: block !important
+	.subheader
+		&_phone
+			margin-top: 10px
+			display: block
+			color: #ffffff !important
+			font-size: 15px !important
+			font-weight: 400 !important
+			text-transform: uppercase !important
+			border: none  !important
+			text-align: center !important
+		&_btn
+			width: 200px !important
+			height: 40px !important
+			margin:  0 auto!important
+			margin-top: 10px!important
+			display: block !important
+	.promo
+		&_header
+			line-height: 45px !important
+	.car
+		&_img
+			img
+				width: 100%
+@media ( max-width: 575px )
+	.subheader
+		height: 60px !important
+		&_official
+			display: none !important
+		&_logo
+			margin-top: 16px !important
+		&_phone
+			font-size: 12px !important
+			font-weight: 400!important
+			text-transform: uppercase!important
+			margin-top: 11px!important
+		&_btn
+			margin-top: 6px!important
+			width: 110px!important
+			height: 22px!important
+			font-size: 10px !important
+	.promo
+		min-height: 400px !important
+		padding: 93px 0 35px 0 !important
+		&_descr
+			display: none !important
+		&_header
+			font-size: 30px!important
+			line-height: 35px !important
+		&_subheader
+			font-size: 20px !important
+			margin-top: 15px !important
+			padding: 0 10px !important
+		&_btn
+			width: 210px !important
+			height: 50px !important
+			margin-top: 72px !important
+	.reason
+		padding: 22px 0 36px 0
+		&_blcok
+			margin-top: 26px
+		&_title
+			color: $goluboy
+			font-size: 16px
+			margin-top: 15px 
+			line-height: 16px
+		&_around
+			width: 100px
+			height: 100px
+	footer 
+		padding: 25px 0 20px 0
+	.footer 
+		&_divider
+			width: 253px
+			margin: 0 auto
+		&_wrapper
+			padding-top: 22px
+		&_wrapper > div 
+			margin-bottom: 20px
+			&:nth-child(1)
+				order: 2
+			&:nth-child(2)
+				order: 1
+			&:nth-child(3)
+				order: 3
+		&_links 
+				width: 290px 
+			&_main 
+				padding: 0
+				font-size: 14px
+			&_sub 
+				flex-wrap: wrap
+				justify-content: center
+				a 
+					margin: 0 7px
+			&_lang 
+				margin-top: 10px
+@media ( max-width: 332px)
+	.world
+		.watch
+			margin-top: 365px
+	
+	
